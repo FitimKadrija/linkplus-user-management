@@ -1,16 +1,67 @@
-# React + Vite
+# LinkPlus User Management App (React Internship Challenge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built as part of the LinkPlus IT internship challenge.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Mandatory
+- Fetch users from JSONPlaceholder API
+- Display users (name, email, company)
+- Client-side search (name/email)
+- User details page (address, phone, website)
+- Add new user locally with validation
+- Insert new users at the top of the list
 
-## React Compiler
+### Bonus
+- Sorting (name/email/company)
+- Redux Toolkit state management
+- Edit and delete users
+- Dark mode toggle
+- Snackbar notifications
+- Responsive Material UI design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React + Vite
+- Redux Toolkit
+- React Router
+- Material UI
+- Axios
 
-## Expanding the ESLint configuration
+## Run Locally
+```bash
+npm install
+npm run dev
+# LinkPlus User Management App (React Internship Challenge)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A React application built as part of the LinkPlus IT internship challenge.
+
+## Features
+
+## Mandatory
+- Fetch users from JSONPlaceholder API
+- Display users (name, email, company)
+- Client-side search (name/email)
+- User details page (address, phone, website)
+- Add new user locally with validation
+- Insert new users at the top of the list
+
+# Bonus
+- Sorting (name/email/company)
+- Redux Toolkit state management
+- Edit and delete users
+- Dark mode toggle
+- Snackbar notifications
+- Responsive Material UI design
+
+## Tech Stack
+- React + Vite
+- Redux Toolkit
+- React Router
+- Material UI
+- Axios
+
+## Run Locally
+```bash
+npm install
+npm run dev
+Open: http://localhost:5173
